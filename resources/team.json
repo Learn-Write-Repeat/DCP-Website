@@ -2,22 +2,21 @@
   "team": [
     {
       "name": "Arpit Dwivedi",
-      "image_url": "/assets/img/team/male.jpg",
+      "image_url": "/assets/img/team/arpit.jfif",
       "position": "Founder",
       "social": {
-        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris",
-        "github": "https://github.com/ashutoshkrris"
+        "linkedin": "https://www.linkedin.com/in/dwivedi-arpit/",
+        "twitter": "https://twitter.com/sdwivediarpit",
+        "github": "https://github.com/arpit-dwivedi"
       }
     },
     {
       "name": "Omkar Shinde",
-      "image_url": "/assets/img/team/male.jpg",
+      "image_url": "/assets/img/team/omkar.jpg",
       "position": "Head of Community Operations",
       "social": {
-        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris",
-        "github": "https://github.com/ashutoshkrris"
+        "linkedin": "https://www.linkedin.com/in/omkar-shinde-310aa5193/",
+        "twitter": "https://twitter.com/oshinde901"
       }
     },
     {
@@ -30,6 +29,15 @@
       }
     },
     {
+      "name": "Ananthakrishnan Nair RS",
+      "image_url": "/assets/img/team/ananth.jfif",
+      "position": "Community Lead",
+      "social": {
+        "linkedin": "https://linkedin.com/in/ananthakrishnan-nair-rs",
+        "github": "https://www.github.com/akrish4"
+      }
+    },
+    {
       "name": "Ashutosh Krishna",
       "image_url": "/assets/img/team/ashutosh.jpg",
       "position": "Web Lead",
@@ -37,15 +45,6 @@
         "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
         "twitter": "https://twitter.com/ashutoshkrris",
         "github": "https://github.com/ashutoshkrris"
-      }
-    },
-    {
-      "name": "Ananthakrishnan Nair RS",
-      "image_url": "/assets/img/team/ananth.jfif",
-      "position": "Community Lead",
-      "social": {
-        "linkedin": "https://linkedin.com/in/ananthakrishnan-nair-rs",
-        "github": "https://www.github.com/akrish4"
       }
     }
   ]
