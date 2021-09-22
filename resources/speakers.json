@@ -1,0 +1,70 @@
+{
+  "speakers": [
+    {
+      "name": "Ben Dechrai",
+      "about": "Senior Developer Advocate, Auth0",
+      "image_url": "/assets/img/speakers/ben.jfif",
+      "linkedin_url": "https://www.linkedin.com/in/bendechrai/"
+    },
+    {
+      "name": "Aravind Putrevu",
+      "about": "Senior Developer Advocate, Elastic",
+      "image_url": "/assets/img/speakers/aravind.jfif",
+      "linkedin_url": "https://www.linkedin.com/in/aravindputrevu/"
+    },
+    {
+      "name": "Sheshanth AS",
+      "about": "Associate Senior Software Engineer, Cerner Corporation",
+      "image_url": "/assets/img/speakers/sheshanth.jpg",
+      "linkedin_url": "https://www.linkedin.com/in/sheshanthas/"
+    },
+    {
+      "name": "Balwinder Singh",
+      "about": "Software Engineer, CloudSmartz",
+      "image_url": "/assets/img/speakers/balwinder.jpeg",
+      "linkedin_url": "https://www.linkedin.com/in/balwinder-singh-b48a4ab7/"
+    },
+    {
+      "name": "Akshita Bindra",
+      "about": "Founder, Togethere",
+      "image_url": "/assets/img/speakers/akishta.jpeg",
+      "linkedin_url": "https://www.linkedin.com/in/akshitabindra/"
+    },
+    {
+      "name": "Pranjal Bhardwaj",
+      "about": "Founder & Community Lead, Ethereum India",
+      "image_url": "/assets/img/speakers/pranjal1.jpeg",
+      "linkedin_url": "https://www.linkedin.com/in/pranjal-bhardwaj-a85263188/"
+    },
+    {
+      "name": "Kunal Garg",
+      "about": "Web Developer, CoolAge App",
+      "image_url": "/assets/img/speakers/Kunal1.jpeg",
+      "linkedin_url": "https://www.linkedin.com/in/kunalgarg357/"
+    },
+    {
+      "name": "Mrinal Jain",
+      "about": "Community Lead, Facebook DevC Indore",
+      "image_url": "/assets/img/speakers/Mrinal.jpg",
+      "linkedin_url": "https://www.linkedin.com/in/mrinaljain/"
+    },
+    {
+      "name": "Altaf Navalur",
+      "about": "Engineering Manager -GD, Junglee Games",
+      "image_url": "/assets/img/speakers/Altaf1.jpeg",
+      "linkedin_url": "https://www.linkedin.com/in/altaf-hussain-navalur-1ab5852/"
+    },
+    {
+      "name": "Vaidhyanathan S M",
+      "about": "Systems Engineer, TCS",
+      "image_url": "/assets/img/speakers/vaidhyanathan.jfif",
+      "linkedin_url": "https://www.linkedin.com/in/vaidhyanathansm/"
+    },
+    {
+      "name": "Ayon Roy",
+      "about": "Data Science Intern, Internshala",
+      "image_url": "/assets/img/speakers/Ayon.png",
+      "linkedin_url": "https://www.linkedin.com/in/aayoonn/"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "top_project_admins": [
+        {
+          "name": "Vaidhyanathan S M",
+          "about": "Systems Engineer, TCS",
+          "image_url": "/assets/img/top-performers/vaidhyanathan.jfif",
+          "linkedin_url": "https://www.linkedin.com/in/vaidhyanathansm/"
+        },
+        {
+          "name": "Deepak Kumar",
+          "about": "Student, OSIT Bhopal",
+          "image_url": "/assets/img/top-performers/deepak.jfif",
+          "linkedin_url": "https://www.linkedin.com/in/deepak-kumar-346525171/"
+        }
+    ]
+}

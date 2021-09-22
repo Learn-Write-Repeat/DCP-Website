@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "title": "Vaccine tracker application 1",
+      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
+      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
+      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "admin_info": {
+        "name": "Sameer Srivastava",
+        "email": "contact@email.com"
+      },
+      "mentors": [
+        {
+          "name": "Mentor 1",
+          "email": "mentor1@gmail.com"
+        },
+        {
+          "name": "Mentor 2",
+          "email": "mentor2@gmail.com"
+        }
+      ]
+    },
+    {
+      "title": "Vaccine tracker application 2",
+      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
+      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
+      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "admin_info": {
+        "name": "Sameer Srivastava",
+        "email": "contact@email.com"
+      },
+      "mentors": [
+        {
+          "name": "Mentor 1",
+          "email": "mentor1@gmail.com"
+        },
+        {
+          "name": "Mentor 2",
+          "email": "mentor2@gmail.com"
+        }
+      ]
+    },
+    {
+      "title": "Vaccine tracker application 3",
+      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
+      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
+      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "admin_info": {
+        "name": "Sameer Srivastava",
+        "email": "contact@email.com"
+      },
+      "mentors": [
+        {
+          "name": "Mentor 1",
+          "email": "mentor1@gmail.com"
+        },
+        {
+          "name": "Mentor 2",
+          "email": "mentor2@gmail.com"
+        }
+      ]
+    },
+    {
+      "title": "Vaccine tracker application 4",
+      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
+      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
+      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "admin_info": {
+        "name": "Sameer Srivastava",
+        "email": "contact@email.com"
+      },
+      "mentors": [
+        {
+          "name": "Mentor 1",
+          "email": "mentor1@gmail.com"
+        },
+        {
+          "name": "Mentor 2",
+          "email": "mentor2@gmail.com"
+        }
+      ]
+    }
+  ]
+}

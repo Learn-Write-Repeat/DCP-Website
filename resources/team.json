@@ -1,0 +1,49 @@
+{
+  "team": [
+    {
+      "name": "Arpit Dwivedi",
+      "image_url": "/assets/img/team/male.jpg",
+      "position": "Founder",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
+        "twitter": "https://twitter.com/ashutoshkrris",
+        "github": "https://github.com/ashutoshkrris"
+      }
+    },
+    {
+      "name": "Ashutosh Krishna",
+      "image_url": "/assets/img/team/male.jpg",
+      "position": "Program Manager",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/ashutoshkrris"
+      }
+    },
+    {
+      "name": "Kushwanth Boina",
+      "image_url": "/assets/img/team/male.jpg",
+      "position": "Program Manager",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
+        "twitter": "https://twitter.com/ashutoshkrris"
+      }
+    },
+    {
+      "name": "Ashutosh Krishna",
+      "image_url": "/assets/img/team/male.jpg",
+      "position": "Program Manager",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
+        "twitter": "https://twitter.com/ashutoshkrris"
+      }
+    },
+    {
+      "name": "Ashutosh Krishna",
+      "image_url": "/assets/img/team/male.jpg",
+      "position": "Program Manager",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
+        "twitter": "https://twitter.com/ashutoshkrris"
+      }
+    }
+  ]
+}
