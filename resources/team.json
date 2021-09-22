@@ -22,18 +22,17 @@
     },
     {
       "name": "Kushwanth Boina",
-      "image_url": "/assets/img/team/male.jpg",
-      "position": "Program Manager",
+      "image_url": "/assets/img/team/kushwanth.jpg",
+      "position": "Community Lead",
       "social": {
-        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris",
-        "github": "https://github.com/ashutoshkrris"
+        "linkedin": "https://www.linkedin.com/in/kushwanth-boina-a8359b181",
+        "github": "https://github.com/kushi944100"
       }
     },
     {
       "name": "Ashutosh Krishna",
       "image_url": "/assets/img/team/ashutosh.jpg",
-      "position": "Program Manager",
+      "position": "Web Lead",
       "social": {
         "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
         "twitter": "https://twitter.com/ashutoshkrris",
@@ -41,13 +40,12 @@
       }
     },
     {
-      "name": "Ananthakrishnan",
-      "image_url": "/assets/img/team/male.jpg",
-      "position": "Program Manager",
+      "name": "Ananthakrishnan Nair RS",
+      "image_url": "/assets/img/team/ananth.jfif",
+      "position": "Community Lead",
       "social": {
-        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris",
-        "github": "https://github.com/ashutoshkrris"
+        "linkedin": "https://linkedin.com/in/ananthakrishnan-nair-rs",
+        "github": "https://www.github.com/akrish4"
       }
     }
   ]

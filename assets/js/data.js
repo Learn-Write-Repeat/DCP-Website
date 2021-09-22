@@ -63,32 +63,23 @@ $(function () {
   $.getJSON("/resources/team.json", function (data) {
     $.each(data.team, function (i, person) {
       var personCol =
-        '<div class="col-lg-3 col-md-6"><div class="teamMember" data-aos="fade-up" data-aos-delay="100"><img src=' +
+        '<div class="col-md-3 col-sm-6"><div class="our-team"><div class="pic"><img src=' +
         person.image_url +
-        ' class="img-fluid"/><div class="details"><h3>' +
+        '></div><h3 class="title">' +
         person.name +
-        "</h3><p>" +
+        '</h3><span class="post">' +
         person.position +
-        '</p><div class="social">';
+        '</span><ul class="social">';
       if (person.social.linkedin) {
-        personCol +=
-          "<a href=" +
-          person.social.linkedin +
-          '><i class="bi bi-linkedin"></i></a>';
+        personCol += `<li><a href="${person.social.linkedin}" class="bi bi-linkedin"></a></li>`;
       }
       if (person.social.twitter) {
-        personCol +=
-          "<a href=" +
-          person.social.twitter +
-          '><i class="bi bi-twitter"></i></a>';
+        personCol += `<li><a href="${person.social.twitter}" class="bi bi-twitter"></a></li>`;
       }
       if (person.social.github) {
-        personCol +=
-          "<a href=" +
-          person.social.github +
-          '><i class="bi bi-github"></i></a>';
+        personCol += `<li><a href="${person.social.github}" class="bi bi-github"></a></li>`;
       }
-      personCol += "</div></div></div></div>";
+      personCol += "</ul></div></div> ";
       $(personCol).appendTo("#teamDetails");
     });
   });
@@ -138,70 +129,3 @@ $(function () {
     });
   });
 });
-
-{
-  /* <div class="col-lg-4 col-md-6">
-              <div class="projectEntry" data-aos="fade-up" data-aos-delay="100">
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                      <article class="card">
-                        <h1 class="title">
-                          Rescale components in an intuitive way with RFS
-                        </h1>
-                        <p>
-                          This card uses
-                          <a href="https://github.com/twbs/rfs" target="_blank">
-                            RFS
-                          </a>
-                          to rescale <code>margin</code>,<code>padding</code>,{"
-                          "} <code>font-size</code>,<code>box-shadow</code>
-                          &amp; <code>border-radius</code>. Resize the codepen
-                          to see it in action.
-                        </p>
-                        <a href="" class="buy-tickets follow-btn">View on Github</a>
-                        <br>
-                        <div class="tags">
-                          <div class="tag">HTML</div>
-                          <div class="tag">React</div>
-                          <div class="tag">CSS</div>
-                          <div class="tag">CSS</div>
-                          <div class="tag">Django</div>
-                          <div class="tag">github</div>
-                          <div class="tag">HTML</div>
-                          <div class="tag">HTML</div>
-                          <div class="tag">HTML</div>
-                          <div class="tag">HTML</div>
-                        </div>
-                      </article>
-                    </div>
-                    <div class="flip-card-back">
-                      <article class="card">
-                        <h3 class="text-center" style="font-weight: 600">
-                          Other Details
-                        </h3>
-                        <p>
-                          The application will help user check the availability
-                          of vaccination slots for a specific date by
-                          individually entering different PIN codes or district
-                          details along with the age group (18+ or 45+).
-                        </p>
-                        <p>
-                          <u>Project Maintained by : </u> <br /><span style="font-weight: 600;">Ashutosh Krishna</span>&nbsp;<a href=""
-                            ><i class="bi bi-envelope"></i
-                          ></a>
-                        </p>
-                        <div class="mentors">
-                          <p><u>Mentors :</u> <br><span style="font-weight: 600;">Ashutosh Krishna</span>&nbsp;<a href=""
-                            ><i class="bi bi-envelope"></i
-                          ></a><br><span style="font-weight: 600;">Ashutosh Krishna</span>&nbsp;<a href=""
-                            ><i class="bi bi-envelope"></i
-                          ></a></p>
-                        </div>
-                      </article>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */
-}
