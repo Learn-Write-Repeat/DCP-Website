@@ -99,13 +99,13 @@ $(function () {
   $.getJSON("/resources/projects.json", function (data) {
     $.each(data.projects, function (i, project) {
       var projectFront =
-        '<div class="col-lg-4 col-md-6"><div class="projectEntry" data-aos="fade-up" data-aos-delay="100"><div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front"><article class="card"><h1 class="title">' +
+        '<div class="col-lg-4 col-md-6"><div class="projectEntry" data-aos="fade-up" data-aos-delay="100"><div class="flip-card" ><div class="flip-card-inner" onclick="flip(event)"><div class="flip-card-front"><article class="card"><h1 class="title">' +
         project.title +
         "</h1><p>" +
         project.desc.slice(0, 180) +
         "...</p><a href=" +
         project.github_url +
-        ' class="buy-tickets follow-btn">View on Github</a><br><div class="tags">';
+        ' class="buy-tickets view-btn" target="_blank">View on Github</a><br><div class="tags">';
       var tags = "";
       $.each(project.tech_stack, function (i, tag) {
         tags += '<div class="tag">' + tag + "</div>";
@@ -115,12 +115,12 @@ $(function () {
 
       var projectBack =
         '<div class="flip-card-back"><article class="card"><h3 class="text-center" style="font-weight: 600">Other Details</h3><p>' +
-        project.desc +
-        '</p><p><u>Project Maintained by : </u> <br /><span style="font-weight: 600;">' +
+        project.desc.slice(0, 200) +
+        '...</p><p><u>Project Maintained by</u> : <br /><span style="font-weight: 600;">' +
         project.admin_info.name +
         '</span>&nbsp;<a href="mailto:' +
         project.admin_info.email +
-        '"><i class="bi bi-envelope"></i></a></p><div class="mentors"><p><u>Mentors :</u>';
+        '"><i class="bi bi-envelope"></i></a></p><div class="mentors"><p><u>Mentors</u> :';
       var mentorsList = "";
       $.each(project.mentors, function (i, mentor) {
         mentorsList +=

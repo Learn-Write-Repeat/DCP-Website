@@ -1,84 +1,583 @@
 {
   "projects": [
     {
-      "title": "Vaccine tracker application 1",
-      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
-      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
-      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "title": "food-Analyzer-App",
+      "github_url": "https://github.com/abhishekpatelmc/food-Analyzer-Web",
+      "desc": "An app which detect what kind of food it is , what ingredients are used, what is the calories present in that food and many more features similar to these. This is Machine Learning project combined with frontend which is combined with Flutter App development",
+      "tech_stack": ["Machine Learning", "Flutter"],
       "admin_info": {
-        "name": "Sameer Srivastava",
-        "email": "contact@email.com"
+        "name": "Abhishek Patel",
+        "email": "mcabhishekpatel2017@gmail.com"
       },
-      "mentors": [
-        {
-          "name": "Mentor 1",
-          "email": "mentor1@gmail.com"
-        },
-        {
-          "name": "Mentor 2",
-          "email": "mentor2@gmail.com"
-        }
-      ]
+      "mentors": []
     },
     {
-      "title": "Vaccine tracker application 2",
-      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
-      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
-      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "title": "food-Analyzer-Web",
+      "github_url": "https://github.com/abhishekpatelmc/food-Analyzer-Web",
+      "desc": "A web portal which detect what kind of food , what ingredients are used, what is the calories present in that food and many more features similar to these. This is a Machine Learning project combined with React as frontend",
+      "tech_stack": ["Machine Learning", "React"],
       "admin_info": {
-        "name": "Sameer Srivastava",
-        "email": "contact@email.com"
+        "name": "Abhishek Patel",
+        "email": "mcabhishekpatel2017@gmail.com"
       },
-      "mentors": [
-        {
-          "name": "Mentor 1",
-          "email": "mentor1@gmail.com"
-        },
-        {
-          "name": "Mentor 2",
-          "email": "mentor2@gmail.com"
-        }
-      ]
+      "mentors": []
     },
     {
-      "title": "Vaccine tracker application 3",
-      "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
-      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
-      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "title": "White Board",
+      "github_url": "https://github.com/japneetbhatia/White-Board",
+      "desc": "This is a beginner friendly white board canvas project. This has some features of MS paint.",
+      "tech_stack": ["CSS", "HTML", "Javascript"],
       "admin_info": {
-        "name": "Sameer Srivastava",
-        "email": "contact@email.com"
+        "name": "Japneet Kaur Bhatia ",
+        "email": "japneetk1111@gmail.com"
       },
-      "mentors": [
-        {
-          "name": "Mentor 1",
-          "email": "mentor1@gmail.com"
-        },
-        {
-          "name": "Mentor 2",
-          "email": "mentor2@gmail.com"
-        }
-      ]
+      "mentors": []
     },
     {
-      "title": "Vaccine tracker application 4",
+      "title": "Apni Dukaan ",
+      "github_url": "https://github.com/QAZIMAAZARSHAD/Apni-Dukaan",
+      "desc": "Apni Dukaan' is an E-commerce website that allows users to purchase any item of their choice from multiple categories like mobiles, clothes, toys etc.",
+      "tech_stack": ["CSS", " Bootstrap", "JavaScript", "HTML"],
+      "admin_info": {
+        "name": "Qazi Maaz Arshad",
+        "email": "qazimaazarshad@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Apna Theatre",
+      "github_url": "https://github.com/QAZIMAAZARSHAD/Movie-Streaming-Website",
+      "desc": "Apna Theatre' is a movie streaming website that allows users to binge watch their favorite movies and series.",
+      "tech_stack": ["CSS", "Bootstrap", "JavaScript", "HTML"],
+      "admin_info": {
+        "name": "Qazi Maaz Arshad",
+        "email": "qazimaazarshad@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Voters Registration Portal",
+      "github_url": "https://github.com/QAZIMAAZARSHAD/Voters-Registration-Portal",
+      "desc": "An online form for the registration of voters in the electoral roll.",
+      "tech_stack": ["CSS", "Bootstrap", "JavaScript", "HTML"],
+      "admin_info": {
+        "name": "Qazi Maaz Arshad",
+        "email": "qazimaazarshad@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Income Tax Calculator",
+      "github_url": "https://github.com/QAZIMAAZARSHAD/Income-Tax-Calculator",
+      "desc": "It is a GUI application that calculates the liable tax of a salaried Indian citizen.",
+      "tech_stack": ["Python Tkinter"],
+      "admin_info": {
+        "name": "Qazi Maaz Arshad",
+        "email": "qazimaazarshad@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Open-source-milap ",
+      "github_url": "https://github.com/Ayush7614/Open-Source-Milap",
+      "desc": "This website helps you how to enter the world of Open-Source",
+      "tech_stack": ["HTML", "CSS", "JS"],
+      "admin_info": {
+        "name": "Ayush Kumar",
+        "email": "ayushknj3@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Botter",
+      "github_url": "https://github.com/Ayush7614/Botter",
+      "desc": "Botte is bot which tweets random quotes with images and #hashtags",
+      "tech_stack": ["HTML", "CSS", "Javascript", "APIs"],
+      "admin_info": {
+        "name": "Ayush Kumar",
+        "email": "ayushknj3@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "MediCare Prime",
+      "github_url": "https://github.com/IIITKalyaniFOSC/MediCare-Prime",
+      "desc": "MediCare is a webapp built with Flask 2.0 and aims at providing a one stop spot for detection and prediction of various medical ailments. Models trained on public datasets are used in the backend to give results.",
+      "tech_stack": [
+        "Node",
+        "Web dev",
+        "HTML",
+        "DSA",
+        "Flask",
+        "CSS",
+        "JavaScript",
+        "ML/DL"
+      ],
+      "admin_info": {
+        "name": "Akshita Dixit",
+        "email": "436_bt19@iiitkalyani.ac.in"
+      },
+      "mentors": []
+    },
+    {
+      "title": "StructureX",
+      "github_url": "https://github.com/akshitadixit/Structurex",
+      "desc": "StructureX is a Javascript based Data Structure and Algorithm Visualizer.",
+      "tech_stack": [
+        "Node",
+        "Web dev",
+        "HTML",
+        "DSA",
+        "Flask",
+        "CSS",
+        "JavaScript",
+        "ML/DL"
+      ],
+      "admin_info": {
+        "name": "Akshita Dixit",
+        "email": "436_bt19@iiitkalyani.ac.in"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Dev Kitchen",
+      "github_url": "https://github.com/sifa123/Dev-Kitchen",
+      "desc": "This is a restaurant project. We are going to build a website for our restaurant that I have named Dev Kitchen. I have planned so far that here I will keep a navigation bar that will contain a home page, about us, menu, reviews, gallery, table reservation, and a contact page. I have also made a diagram so that our contributors understood the plan clearly, and they can also modify it as they want.",
+      "tech_stack": ["CSS", "Bootstrap", "JavaScript", "HTML"],
+      "admin_info": {
+        "name": "Sefat Siddiquea",
+        "email": "sifa199910@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Awesome Portfolio Website",
+      "github_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
+      "desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
+      "tech_stack": ["HTML", "ReactJS", "SCSS", "Bootstrap"],
+      "admin_info": {
+        "name": "Smaranjit Ghose",
+        "email": "smaranjitghose@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "DocLense",
+      "github_url": "https://github.com/smaranjitghose/DocLense",
+      "desc": "An open-source document scanner!",
+      "tech_stack": ["Dart", "Flutter"],
+      "admin_info": {
+        "name": "Smaranjit Ghose",
+        "email": "smaranjitghose@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Doc2pen",
+      "github_url": "https://github.com/smaranjitghose/doc2pen",
+      "desc": "An open source project aimed at making your student life easier!",
+      "tech_stack": [
+        "HTML",
+        "SCSS",
+        "Javascript",
+        "ReactJS",
+        "Bootstrap",
+        "NextJS"
+      ],
+      "admin_info": {
+        "name": "Smaranjit Ghose",
+        "email": "smaranjitghose@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Wardrobify",
+      "github_url": "https://github.com/smaranjitghose/wardrobify/",
+      "desc": "The only application you need to keep track of your wardrobe's contents and decide your outfit on the go.",
+      "tech_stack": [
+        "NextJS",
+        "Tailwind",
+        "HTML",
+        "SCSS",
+        "JavaScript",
+        "Firebase"
+      ],
+      "admin_info": {
+        "name": "Anush Bhatia",
+        "email": "anushbhatia1234@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Upcharika",
+      "github_url": "https://github.com/smaranjitghose/Upcharika",
+      "desc": "A unique flutter application aimed at helping people getting their vitals using Photoplethysmography and Computer Vision",
+      "tech_stack": ["Dart", "Flutter", "Firebase"],
+      "admin_info": {
+        "name": "Anush Bhatia",
+        "email": "anushbhatia1234@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "AppleFoliarAI",
+      "github_url": "https://github.com/smaranjitghose/AppleFoliarAI",
+      "desc": "Using machine learning to diagnose foliar diseases in apple plants",
+      "tech_stack": ["Tensorflow", "ReactJS", "HTML", "SCSS", "Javascript"],
+      "admin_info": {
+        "name": "Anush Bhatia",
+        "email": "anushbhatia1234@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "estore",
+      "github_url": "https://github.com/Ananya02850/estore",
+      "desc": "My project is on online shopping website and the name of website is estore",
+      "tech_stack": ["CSS", "Bootstrap", "PHP", "JavaScript", "HTML"],
+      "admin_info": {
+        "name": "Ananya",
+        "email": "ananyarnjn@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "E learning Platform ",
+      "github_url": "https://github.com/SahityaRoy/E-Learning-freesite",
+      "desc": "Free resources in one place students can access all the recourse through this side and i will put this site on my github publicly so that students can contribute and add more and more features",
+      "tech_stack": ["HTML", "CSS", "JavaScript", "SQL"],
+      "admin_info": {
+        "name": "Sahitya Roy",
+        "email": "29roysonu@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Examination Result Generator Portal",
+      "github_url": "https://github.com/Ash515/ExamResultGenerator",
+      "desc": "The general portal for publishing exam results at universities. Students can get their exam results without any other medium like Email, Messaging etc. There are two modes of users - Students and Administrator i.e COE.",
+      "tech_stack": ["CSS", "HTML", "Flask", "ReactJS", "JavaScript", "MySQL"],
+      "admin_info": {
+        "name": "Ashwin Kumar Ramaswamy ",
+        "email": "aaashwin515@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Space Shooter Game",
+      "github_url": "https://github.com/swati2603/Game",
+      "desc": "It's a mini project. In this project, object oriented programming concepts used and developed with the assistance of JavaScript and HTML. In this game, simply user can shoot and can earn points.",
+      "tech_stack": ["HTML", "Javascript"],
+      "admin_info": {
+        "name": "Swati Maurya",
+        "email": "maurya2026@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "AI-ML-for-Newborn-Babies-in-Healthcare",
+      "github_url": "https://github.com/SamarthMR/AI-ML-for-Newborn-Babies-in-Healthcare",
+      "desc": "This project aims to develop an ML algorithm for early detection of the risk of survival of the Preterm newborn babies in the hospitals that are admitted in the Neonatal Intensive Care Units (NICU) through Pain-Scale Assessment which uses OpenCV and Python.",
+      "tech_stack": ["Python", "OpenCV", "Tensorflow", "Numpy"],
+      "admin_info": {
+        "name": "Samarth M R",
+        "email": "mrsamarth18@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Face-X",
+      "github_url": "https://github.com/akshitagupta15june/Face-X",
+      "desc": "Recognition of faces by different algorithms and frameworks. Despite a variety of open-source face recognition frameworks available, there was no ready-made solution to implement. So In this project all kinds of algorithms are implemented and even with various operations that can be implemented in a frontal face. The available algorithms processed only high-resolution static shots and performed insufficiently.",
+      "tech_stack": ["CNN", "ML", "OpenCV"],
+      "admin_info": {
+        "name": "Akshita Gupta",
+        "email": "akshitagupta15june@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Coders-Evoke website",
+      "github_url": "https://github.com/Coders-Evoke-Community/CodersEvoke_website.git",
+      "desc": "This project is based on the coders Evoke community where we are going to make a simple web using HTML CSS Js .",
+      "tech_stack": ["HTML", "CSS", "Javascript"],
+      "admin_info": {
+        "name": "Ayan Gupta",
+        "email": "guptajiayan111@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "DS Olympus",
+      "github_url": "https://github.com/ZeusCodes-Official/DS-Olympus-",
+      "desc": "A collection of various data science problems along with it's dataset and solutions in various fields like machine learning, deep learning (image recognition, natural language processing) all at one place.",
+      "tech_stack": [
+        "Python",
+        "R",
+        "Jupyter Notebook",
+        "Data Science",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "admin_info": {
+        "name": "Utkarsh Sharma",
+        "email": "utkarshsharma1189@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "JS-games",
+      "github_url": "https://github.com/geekymeeky/JS-games",
+      "desc": "A curated collection of web games developed using Javascript.",
+      "tech_stack": ["HTML", "CSS", "Javascript", "Bootstrap"],
+      "admin_info": {
+        "name": "Srijan Kumar Gupta",
+        "email": "gupta.srijan94@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Mausam",
+      "github_url": "https://github.com/geekymeeky/Mausam",
+      "desc": "A cross-platform weather app developed using Flutter.",
+      "tech_stack": ["Dart", "Flutter"],
+      "admin_info": {
+        "name": "Srijan Kumar Gupta",
+        "email": "gupta.srijan94@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Chitchat",
+      "github_url": "https://github.com/geekymeeky/chitchat",
+      "desc": "A simple chat application developed using Flutter.",
+      "tech_stack": ["Dart", "Flutter", "Firebase"],
+      "admin_info": {
+        "name": "Srijan Kumar Gupta",
+        "email": "gupta.srijan94@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Awesome_Python_Scripts",
+      "github_url": "https://github.com/prathimacode-hub/Awesome_Python_Scripts",
+      "desc": "This project is a collection of all awesome python scripts. It's shows up with a curated collection of projects programmed in python from beginner to pro. You can find wide range of topics to choose from BasicPythonScripts, WebScrapingScripts, GUIScripts, AutomationScrips, PyGamesScripts, APIScripts etc. and start contributing.",
+      "tech_stack": ["Python"],
+      "admin_info": {
+        "name": "Prathima Kadari",
+        "email": "kadariprathima4@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "ML-ProjectKart",
+      "github_url": "https://github.com/prathimacode-hub/ML-ProjectKart",
+      "desc": "This kart has finest projects on machine learning, computer vision, natural language processing, deep learning etc. Anyone can hop in, be it Data Analysts (or) Machine learning, Deep learning, Computer Vision, Natural language processing enthusiasts (or) Front End Designers (or) Back End Developers or) UI/UX Designers. This place has task for everyone.",
+      "tech_stack": ["Machine Learning"],
+      "admin_info": {
+        "name": "Prathima Kadari",
+        "email": "kadariprathima4@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "PyAlgo-Tree",
+      "github_url": "https://github.com/prathimacode-hub/PyAlgo-Tree",
+      "desc": "This project aims to be a finest hub of various data structures and algorithms you need to know in python across different topics and fields. You can get all the wisdom here about data structures and algorithms before you dive into real time projects. Get it started as it initiates the concept of learning by doing.",
+      "tech_stack": ["Python"],
+      "admin_info": {
+        "name": "Prathima Kadari",
+        "email": "kadariprathima4@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "DS-ScriptsNook",
+      "github_url": "https://github.com/prathimacode-hub/DS-ScriptsNook/",
+      "desc": "This is a nook where you can indulge in Data Science and explore as much as you can. It's specifically built for all data science enthusiasts who wants to widen their horizons. You can come up with scripts on algorithms, libraries or tutorials and many more. There are various repositories like machine learning, deep learning, artificial intelligence, computer vision, natural language processing, linear algebra, statistics, calculus  etc. Be your own explorer.",
+      "tech_stack": ["Data Science"],
+      "admin_info": {
+        "name": "Prathima Kadari",
+        "email": "kadariprathima4@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "LearnZania Website",
+      "github_url": "https://github.com/Akshima-Ghai/OneEducationalWebsiteForAll",
+      "desc": "If I have to describe my project , in simple words , it would be an educational website/app , but not just that  , it would be the best website/app , a person or organisation can ever ask for . It will have many features  including VideoLectures , Theory/Notes , TestSeries , DataAnalysis of results , Blogs to motivate or for Guidance  , Attendance System and many more features. We would also deploy it , so that it can be a real-time working  project and it would help everyone to gain a lot of experience and learning curve for this project would also be  great . It would also have the best design which would make it interactive as well as attractive .",
+      "tech_stack": ["MERN"],
+      "admin_info": {
+        "name": "Akshima Ghai",
+        "email": "akshima1603@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "LearnZania App",
+      "github_url": "https://github.com/Akshima-Ghai/OneEducationalAppForAll ",
+      "desc": "If I have to describe my project , in simple words , it would be an educational website/app , but not just that  , it would be the best website/app , a person or organisation can ever ask for . It will have many features  including VideoLectures , Theory/Notes , TestSeries , DataAnalysis of results , Blogs to motivate or for Guidance  , Attendance System and many more features. We would also deploy it , so that it can be a real-time working  project and it would help everyone to gain a lot of experience and learning curve for this project would also be  great . It would also have the best design which would make it interactive as well as attractive .",
+      "tech_stack": ["Flutter", "Firebase"],
+      "admin_info": {
+        "name": "Akshima Ghai",
+        "email": "akshima1603@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Competitive Programming Question Bank",
+      "github_url": "https://github.com/smv1999/CompetitiveProgrammingQuestionBank",
+      "desc": "The aim of the repository is to bring all the popular Competitive Programming and DSA questions with solutions under one roof for Coding Interview Preparation.",
+      "tech_stack": ["Python", "JavaScript", "Go", "Java", "C/C++"],
+      "admin_info": {
+        "name": "Vaidhyanathan S M",
+        "email": "vaidhyanathan.sm@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "ProPack",
+      "github_url": "https://github.com/WH0SUMIT/propack",
+      "desc": "ProPack is a solution for every beginner programmer who cannot find the right resources and projects. We provide basic web development projects now on our website we are planning to add some more projects in the future and this is an open-source project so anyone can contribute to it. Let's Build It Together.",
+      "tech_stack": [
+        "CSS",
+        "Bootstrap",
+        "jQuery",
+        "SCSS",
+        "HTML",
+        "Javascript"
+      ],
+      "admin_info": {
+        "name": "Sumit Singh",
+        "email": "sumikumar1608@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Soomvaar",
+      "github_url": "https://github.com/Ayush7614/Soomvaar",
+      "desc": "Soomvaar is the collection of various codes implement in machine learning and machine learning algorithms with python on collab notebook with kaggle datasets",
+      "tech_stack": ["Machine Learning", "ML Algorithms", "Python"],
+      "admin_info": {
+        "name": "Ayush Kumar",
+        "email": "ayushknj3@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Vaccine tracker application",
       "github_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
-      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+).",
-      "tech_stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Flask"],
+      "desc": "The application will help user check the availability of vaccination slots for a specific date by individually entering different PIN codes or district details along with the age group (18+ or 45+). If there are no slots available, users can subscribe to email alert service to get notification as soon as slots are avaialble in there area.",
+      "tech_stack": ["CSS", "JavaScript", "HTML", "Flask", "Bootstrap"],
       "admin_info": {
         "name": "Sameer Srivastava",
-        "email": "contact@email.com"
+        "email": "sameersrivastava599@gmail.com"
       },
-      "mentors": [
-        {
-          "name": "Mentor 1",
-          "email": "mentor1@gmail.com"
-        },
-        {
-          "name": "Mentor 2",
-          "email": "mentor2@gmail.com"
-        }
-      ]
+      "mentors": []
+    },
+    {
+      "title": "Fun With Physics",
+      "github_url": "https://github.com/Amit366/FunwithPhysics",
+      "desc": "This project is a Physics calculator where the user just needs to enter the values and the project calculates the result using the formula.",
+      "tech_stack": ["CSS", "HTML", "Js(React)"],
+      "admin_info": {
+        "name": "Amit Kumar Mishra",
+        "email": "akm43300@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Bundli-Frontend ",
+      "github_url": "https://github.com/Ayush7614/Bundli-Frontend",
+      "desc": "Bundli-Frontend is a open source project which contains different code of frontend Development with HTML, CSS, JS, REACT, ANGULAR and APIs etc. which makes your life easier for learning frontend and make your intrest more in frontend.",
+      "tech_stack": ["CSS", "APIs", "JS", "HTML"],
+      "admin_info": {
+        "name": "Ayush Kumar",
+        "email": "ayushknj3@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Instatags",
+      "github_url": "https://github.com/Ayush7614/Instatags",
+      "desc": "Instatags is a tool that generates random tags for your profile picture, photos and post with imugr,google apis",
+      "tech_stack": ["CSS", "APIs", "JS", "HTML"],
+      "admin_info": {
+        "name": "Ayush Kumar",
+        "email": "ayushknj3@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "iRead",
+      "github_url": "https://github.com/ashutoshkrris/iRead",
+      "desc": "iRead is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic. It has most of the features that a standard blog has such as Authentication and Authorization with OTP Verification, Rich Text Editor, Filters, etc.",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "Django",
+        "PostgreSQL"
+      ],
+      "admin_info": {
+        "name": "Ashutosh Krishna",
+        "email": "ashutoshbritish@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "Music hosting Application ",
+      "github_url": "https://github.com/Ashish2030/Music-Hoster-FrontEnd-Using-React",
+      "desc": "This is my project where you can host your file's ",
+      "tech_stack": ["React", "SpringBoot"],
+      "admin_info": {
+        "name": "Ashish Kumar",
+        "email": "ashishkumar.cse18@chitkarauniversity.edu.in"
+      },
+      "mentors": []
+    },
+    {
+      "title": "MKS : My Knowledge Sharing",
+      "github_url": "https://github.com/DeveloperJayu/DevIncept_MKS/",
+      "desc": "This project will be one's family application. In this Project we have functionalities like Birthdays, Anniversaries, Festivals, etc. We also can chat with our family member through this application.",
+      "tech_stack": ["Kotlin", "REST API.", "Firebase", "Android Studio"],
+      "admin_info": {
+        "name": "Jay Parmar",
+        "email": "parmar.jay38@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "IPL-RIP6O",
+      "github_url": "https://github.com/thegautamkumarjaiswal/IPL-RIP6O",
+      "desc": "The IPL-RIP6O is IPL Runs Inning Per 6 Overs. In this project, I am making a Machine Learning model that can predict the score after every six overs in an inning of match.",
+      "tech_stack": [
+        "Scikit learn",
+        "HTML",
+        "JavaScript",
+        "Tensorflow",
+        "CSS",
+        "Python",
+        "Bootstrap"
+      ],
+      "admin_info": {
+        "name": "Gautam Jaiswal",
+        "email": "gautamjaiswal030@gmail.com"
+      },
+      "mentors": []
+    },
+    {
+      "title": "SpaceXWebapp",
+      "github_url": "https://github.com/manankohlii/spacex-launch-data",
+      "desc": "Uses the freely available SpaceX API and basic HTML CSS and JS to give details of missions. ",
+      "tech_stack": ["HTML", "CSS", "JS"],
+      "admin_info": {
+        "name": "Manan Kohli",
+        "email": "manankohli77@gmail.com"
+      },
+      "mentors": []
     }
   ]
 }

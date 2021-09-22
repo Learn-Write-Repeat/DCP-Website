@@ -11,11 +11,13 @@
       }
     },
     {
-      "name": "Ashutosh Krishna",
+      "name": "Omkar Shinde",
       "image_url": "/assets/img/team/male.jpg",
-      "position": "Program Manager",
+      "position": "Head of Community Operations",
       "social": {
-        "linkedin": "https://www.linkedin.com/in/ashutoshkrris"
+        "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
+        "twitter": "https://twitter.com/ashutoshkrris",
+        "github": "https://github.com/ashutoshkrris"
       }
     },
     {
@@ -24,25 +26,28 @@
       "position": "Program Manager",
       "social": {
         "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris"
+        "twitter": "https://twitter.com/ashutoshkrris",
+        "github": "https://github.com/ashutoshkrris"
       }
     },
     {
       "name": "Ashutosh Krishna",
-      "image_url": "/assets/img/team/male.jpg",
+      "image_url": "/assets/img/team/ashutosh.jpg",
       "position": "Program Manager",
       "social": {
         "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris"
+        "twitter": "https://twitter.com/ashutoshkrris",
+        "github": "https://github.com/ashutoshkrris"
       }
     },
     {
-      "name": "Ashutosh Krishna",
+      "name": "Ananthakrishnan",
       "image_url": "/assets/img/team/male.jpg",
       "position": "Program Manager",
       "social": {
         "linkedin": "https://www.linkedin.com/in/ashutoshkrris",
-        "twitter": "https://twitter.com/ashutoshkrris"
+        "twitter": "https://twitter.com/ashutoshkrris",
+        "github": "https://github.com/ashutoshkrris"
       }
     }
   ]
