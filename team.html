@@ -50,6 +50,7 @@
   </head>
 
   <body>
+    <div id="loader" class="center"></div>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center header-inner">
       <div class="container-fluid container-xxl d-flex align-items-center">
@@ -202,7 +203,17 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-
+    <script>
+      document.onreadystatechange = function () {
+        if (document.readyState !== "complete") {
+          document.querySelector("body").style.visibility = "hidden";
+          document.querySelector("#loader").style.visibility = "visible";
+        } else {
+          document.querySelector("#loader").style.display = "none";
+          document.querySelector("body").style.visibility = "visible";
+        }
+      };
+    </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/data.js"></script>

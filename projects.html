@@ -74,6 +74,7 @@
   </head>
 
   <body>
+    <div id="loader" class="center"></div>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center header-inner">
       <div class="container-fluid container-xxl d-flex align-items-center">
@@ -109,7 +110,11 @@
             <li><a class="nav-link scrollto" href="/team.html">Team</a></li>
             <li><a class="nav-link scrollto" href="/#sponsors">Sponsors</a></li>
             <li><a class="nav-link scrollto" href="/#faq">FAQ</a></li>
-            <li><a class="nav-link scrollto" href="#footer" id="contact">Contact</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#footer" id="contact"
+                >Contact</a
+              >
+            </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -128,8 +133,7 @@
               Unfinished projects are a symbol of progress, not of imperfection
             </p>
           </div>
-          <div class="row" id="projectDetails">
-          </div>
+          <div class="row" id="projectDetails"></div>
         </div>
       </section>
     </main>
@@ -143,8 +147,11 @@
             <div class="col-lg-4 col-md-6 footer-info">
               <img src="assets/img/logo.png" alt="DevIncept" />
               <p>
-                At DevIncept we have come from different backgrounds, but we all share a common enthusiasm for writing, learning, and sharing ideas and codes. Our skills vary from a beginner to expert in different technologies, so content you find here will be diverse.
-                
+                At DevIncept we have come from different backgrounds, but we all
+                share a common enthusiasm for writing, learning, and sharing
+                ideas and codes. Our skills vary from a beginner to expert in
+                different technologies, so content you find here will be
+                diverse.
               </p>
               <br />
               <form>
@@ -182,7 +189,8 @@
                 E-12/1, Sarvodaya Nagar <br />
                 Lucknow, UP 226016<br />
                 India <br />
-                <strong>Email:</strong> <a href="support@devincept.com">support@devincept.com</a><br />
+                <strong>Email:</strong>
+                <a href="support@devincept.com">support@devincept.com</a><br />
               </p>
 
               <div class="social-links">
@@ -243,7 +251,17 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-
+    <script>
+      document.onreadystatechange = function () {
+        if (document.readyState !== "complete") {
+          document.querySelector("body").style.visibility = "hidden";
+          document.querySelector("#loader").style.visibility = "visible";
+        } else {
+          document.querySelector("#loader").style.display = "none";
+          document.querySelector("body").style.visibility = "visible";
+        }
+      };
+    </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/data.js"></script>

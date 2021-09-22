@@ -9,12 +9,36 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/android-chrome-512x512.png">
-
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/img/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/img/android-chrome-512x512.png"
+    />
 
     <!-- Google Fonts -->
     <link
@@ -50,6 +74,7 @@
   </head>
 
   <body>
+    <div id="loader" class="center"></div>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center header-inner">
       <div class="container-fluid container-xxl d-flex align-items-center">
@@ -83,7 +108,11 @@
             <li><a class="nav-link scrollto" href="/team.html">Team</a></li>
             <li><a class="nav-link scrollto" href="/#sponsors">Sponsors</a></li>
             <li><a class="nav-link scrollto" href="/#faq">FAQ</a></li>
-            <li><a class="nav-link scrollto" href="#footer" id="contact">Contact</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#footer" id="contact"
+                >Contact</a
+              >
+            </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -121,10 +150,19 @@
             <div class="col-lg-4 col-md-6 footer-info">
               <img src="assets/img/logo.png" alt="DevIncept" />
               <p>
-                At DevIncept we have come from different backgrounds, but we all share a common enthusiasm for writing, learning, and sharing ideas and codes. Our skills vary from a beginner to expert in different technologies, so content you find here will be diverse.
+                At DevIncept we have come from different backgrounds, but we all
+                share a common enthusiasm for writing, learning, and sharing
+                ideas and codes. Our skills vary from a beginner to expert in
+                different technologies, so content you find here will be
+                diverse.
               </p>
-              <br>
-              <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FxT74n2ecn7ibr"> </script> </form>
+              <br />
+              <form>
+                <script
+                  src="https://checkout.razorpay.com/v1/payment-button.js"
+                  data-payment_button_id="pl_FxT74n2ecn7ibr"
+                ></script>
+              </form>
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
@@ -154,19 +192,28 @@
                 E-12/1, Sarvodaya Nagar <br />
                 Lucknow, UP 226016<br />
                 India <br />
-                <strong>Email:</strong> <a href="support@devincept.com">support@devincept.com</a><br />
+                <strong>Email:</strong>
+                <a href="support@devincept.com">support@devincept.com</a><br />
               </p>
 
               <div class="social-links">
-                <a href="https://twitter.com/devincept" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://facebook.com/devincept" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/devincept" class="twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a href="https://facebook.com/devincept" class="facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
                 <a href="https://instagram.com/devincept.tech" class="instagram"
                   ><i class="bi bi-instagram"></i
                 ></a>
                 <a href="https://youtube.com/c/DevIncept" class="google-plus"
                   ><i class="bi bi-youtube"></i
                 ></a>
-                <a href="https://www.linkedin.com/company/devincept/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a
+                  href="https://www.linkedin.com/company/devincept/"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -207,6 +254,17 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.onreadystatechange = function () {
+        if (document.readyState !== "complete") {
+          document.querySelector("body").style.visibility = "hidden";
+          document.querySelector("#loader").style.visibility = "visible";
+        } else {
+          document.querySelector("#loader").style.display = "none";
+          document.querySelector("body").style.visibility = "visible";
+        }
+      };
+    </script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
