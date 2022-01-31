@@ -1721,3 +1721,11 @@ ul {
   right: 0;
   margin: auto;
 }
+
+.nav-pills .nav-link.active {
+  background-color: #f82249;
+  color: #fff;
+}
+.nav-pills .nav-link {
+  color: #2b1b4d;
+}

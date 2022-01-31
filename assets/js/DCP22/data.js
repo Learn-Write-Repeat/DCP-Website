@@ -12,7 +12,7 @@ $(function () {
         '</p><div class="social"><a href=' +
         person.linkedin_url +
         '><i class="bi bi-linkedin"></i></a></div></div></div></div>';
-      $(speakerCol).appendTo("#speakersData");
+      $(speakerCol).appendTo("#dcp22SpeakersData");
     });
   });
 });

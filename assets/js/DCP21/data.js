@@ -3,7 +3,7 @@ $(function () {
   $.getJSON("../../../resources/DCP21/speakers.json", function (data) {
     $.each(data.speakers, function (i, person) {
       var speakerCol =
-        '<div class="col-lg-4 col-md-6"><div class="speaker" data-aos="fade-up" data-aos-delay="100"><img src=' +
+        '<div class="col-lg-3 col-md-6"><div class="speaker" data-aos="fade-up" data-aos-delay="100"><img src=' +
         person.image_url +
         ' class="img-fluid"/><div class="details"><h3>' +
         person.name +
@@ -12,7 +12,7 @@ $(function () {
         '</p><div class="social"><a href=' +
         person.linkedin_url +
         '><i class="bi bi-linkedin"></i></a></div></div></div></div>';
-      $(speakerCol).appendTo("#speakersData");
+      $(speakerCol).appendTo("#dcp21SpeakersData");
     });
   });
 });
