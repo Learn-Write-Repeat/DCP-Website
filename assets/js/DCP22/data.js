@@ -1,6 +1,6 @@
 // Speakers Data
 $(function () {
-  $.getJSON("/resources/speakers.json", function (data) {
+  $.getJSON("../../../resources/DCP22/speakers.json", function (data) {
     $.each(data.speakers, function (i, person) {
       var speakerCol =
         '<div class="col-lg-4 col-md-6"><div class="speaker" data-aos="fade-up" data-aos-delay="100"><img src=' +
@@ -19,29 +19,32 @@ $(function () {
 
 // Top Project Admins Data
 $(function () {
-  $.getJSON("/resources/top-project-admins.json", function (data) {
-    var emptyCol = '<div class="col-lg-3 col-md-6 mb-lg-0 mb-5 "></div>';
-    $(emptyCol).appendTo("#projectAdmins");
-    $.each(data.top_project_admins, function (i, person) {
-      var personCol =
-        '<div class="col-lg-3 col-md-6 mb-lg-0 mb-5 "><div class="avatar mx-auto"><img src=' +
-        person.image_url +
-        ' class="rounded-circle z-depth-1" style="height:250px;width:250px;"/></div><h5 class="font-weight-bold mt-4 mb-3">' +
-        person.name +
-        '</h5><p class="text-uppercase blue-text"><strong>' +
-        person.about +
-        '</strong></p><ul class="list-unstyled mb-0"><a href=' +
-        person.linkedin_url +
-        ' class="buy-tickets follow-btn">Follow</a></ul></div>';
-      $(personCol).appendTo("#projectAdmins");
-    });
-    $(emptyCol).appendTo("#projectAdmins");
-  });
+  $.getJSON(
+    "../../../resources/DCP22/top-project-admins.json",
+    function (data) {
+      var emptyCol = '<div class="col-lg-3 col-md-6 mb-lg-0 mb-5 "></div>';
+      $(emptyCol).appendTo("#projectAdmins");
+      $.each(data.top_project_admins, function (i, person) {
+        var personCol =
+          '<div class="col-lg-3 col-md-6 mb-lg-0 mb-5 "><div class="avatar mx-auto"><img src=' +
+          person.image_url +
+          ' class="rounded-circle z-depth-1" style="height:250px;width:250px;"/></div><h5 class="font-weight-bold mt-4 mb-3">' +
+          person.name +
+          '</h5><p class="text-uppercase blue-text"><strong>' +
+          person.about +
+          '</strong></p><ul class="list-unstyled mb-0"><a href=' +
+          person.linkedin_url +
+          ' class="buy-tickets follow-btn">Follow</a></ul></div>';
+        $(personCol).appendTo("#projectAdmins");
+      });
+      $(emptyCol).appendTo("#projectAdmins");
+    }
+  );
 });
 
 // Top Contributors Data
 $(function () {
-  $.getJSON("/resources/top-contributors.json", function (data) {
+  $.getJSON("../../../resources/DCP22/top-contributors.json", function (data) {
     $.each(data.top_contributors, function (i, person) {
       var personCol =
         '<div class="col-lg-3 col-md-6 mb-lg-0 mb-5 mt-5"><div class="avatar mx-auto"><img src=' +
@@ -60,7 +63,8 @@ $(function () {
 
 // Team data
 $(function () {
-  $.getJSON("/resources/team.json", function (data) {
+  $.getJSON("../../../resources/DCP22/team.json", function (data) {
+    console.log(data.team);
     $.each(data.team, function (i, person) {
       var personCol =
         '<div class="col-md-3 col-sm-6"><div class="our-team"><div class="pic"><img src=' +
@@ -87,7 +91,7 @@ $(function () {
 
 // Projects Data
 $(function () {
-  $.getJSON("/resources/projects.json", function (data) {
+  $.getJSON("../../../resources/DCP22/projects.json", function (data) {
     $.each(data.projects, function (i, project) {
       var projectFront =
         '<div class="col-lg-4 col-md-6"><div class="projectEntry" data-aos="fade-up" data-aos-delay="100"><div class="flip-card" ><div class="flip-card-inner" onclick="flip(event)"><div class="flip-card-front"><article class="card"><h1 class="title">' +
